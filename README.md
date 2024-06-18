@@ -2,22 +2,4 @@
 
 Multiple Linear Regression Marketing Promotion Budgets
 
-OVERVIEW
-
-The goal of this project is to build regression model(s) to determine which marketing promotion budget has the highest impact on company sales: TV, Radio, Social Media. This project has three separate Jupyter Notebooks building off the further exploration of the previous analysis. The dataset can be found at https://www.kaggle/.com/unsdsn/world-happiness
-
-BUSINESS UNDERSTANDING
-
-o You should have a section that showcases the stakeholder(s) and the business problem you tried to solve. Feel free to add citations of research you did on your business problem here as well.
-
-DATA UNDERSTANDING
-
-o Explain what data you used in your analysis, the timeframe of the data, and any data limitations. This is also a good section to add visualizations of your exploratory data analysis.
-
-MODELING & EVALUATION
-
-o This section should detail what models you used and the corresponding evaluation metrics.
-
-CONCLUSION
-
-o In the conclusion section explain the recommendations you have in solving the business problem and highlight any future steps you will take to expand on your project
+The goal of this project is to build regression model(s) to determine which marketing promotion budget has the highest impact on company sales: TV, Radio, Social Media. This project has three separate Jupyter Notebooks building off the further exploration of the previous analysis. Simple Linear Regression was performed on Radio and TV promotion budgets confirming TV has the highest impact on Sales and Radio second. Refer to Simple Linear Regression.ipynb using marketing_and_sales_data_evaluate_lr.csv file. According to the linear regression model, an increase of one million dollars for the TV promotional budget will result in an estimated 3.5614 million dollars more in sales. Multiple Linear Regression was used to estimate sales given different TV promotional budgets. Refer to Multiple Linear Regression.ipynb using the marketing_sales_data.csv file. The multiple linear regression model shows a high TV promotion budget will yield the highest increase in sales.
